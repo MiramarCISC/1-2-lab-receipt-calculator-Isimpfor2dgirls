@@ -7,7 +7,7 @@ double calculateSubtotal(double item1, double item2, double item3) {
 
 // TODO: Return the sales tax for the subtotal using TAX_RATE.
 double calculateTax(double subtotal) {
-    return subtotal + TAX_RATE;
+    return subtotal * TAX_RATE;
 }
 
 // TODO: Return the tip amount.
